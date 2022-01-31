@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Photos = () => {
     return (
-        <Container className="photosContainer" id="Photos">
+        <Container className="photosContainer" id="Photos" fluid>
             <Row>
                 <Col>
                     <h1>Hello</h1>

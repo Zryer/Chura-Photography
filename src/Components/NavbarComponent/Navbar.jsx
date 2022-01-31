@@ -17,10 +17,10 @@ const Navi = () => {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="offCanvasBody">
-                            <Nav.Link href="#">Home</Nav.Link>
-                            <Nav.Link href="#">About</Nav.Link>
-                            <Nav.Link href="#">Photos</Nav.Link>
-                            <Nav.Link href="#">Contact</Nav.Link>
+                            <Nav.Link href="#Home">Home</Nav.Link>
+                            <Nav.Link href="#About">About</Nav.Link>
+                            <Nav.Link href="#Photos">Photos</Nav.Link>
+                            <Nav.Link href="#Contact">Contact</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

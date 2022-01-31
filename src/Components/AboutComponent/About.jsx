@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const About = () => {
     return (
-        <Container className="aboutContainer" id="About">
+        <Container className="aboutContainer" id="About" fluid>
             <Row>
                 <Col>
                     <h1>Hello</h1>

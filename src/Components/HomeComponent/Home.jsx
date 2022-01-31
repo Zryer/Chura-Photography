@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
-const Intro = () => {
+const Home = () => {
     return (
-        <Container className="introContainer" id="Intro">
+        <Container className="homeContainer" id="Home" fluid>
             <Row>
                 <Col>
                     <h1>Hello</h1>
@@ -15,4 +15,4 @@ const Intro = () => {
     )
 }
 
-export default Intro;
+export default Home;
