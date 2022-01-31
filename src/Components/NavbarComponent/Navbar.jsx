@@ -3,7 +3,7 @@ import { Container, Navbar, Offcanvas, Nav } from 'react-bootstrap';
 
 const Navi = () => {
     return (
-        <Navbar expand={false} bg="light">
+        <Navbar expand={false} bg="light" sticky="top">
             <Container fluid>
                 <Navbar.Brand href="#" className="navbarBrand">Sakura Wilson</Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar" />
