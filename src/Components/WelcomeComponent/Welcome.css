@@ -1,0 +1,18 @@
+.welcomeContainer {
+    height: 100vh;
+    animation: fadeAway ease 3s; 
+    animation-fill-mode: forwards;
+    z-index: 1000;
+}
+
+@keyframes fadeAway {
+    0% {
+        opacity: 1;
+        background-color: red;
+    }
+    100% {
+        opacity: 0;
+        background-color: blue;
+        z-index: -1;
+    }
+}

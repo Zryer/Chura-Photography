@@ -4,6 +4,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Home = () => {
     return (
+        <>
+                   
         <Container className="homeContainer" id="Home" fluid>
             <Row>
                 <Col>
@@ -12,6 +14,7 @@ const Home = () => {
                 </Col>
             </Row>
         </Container>
+        </>
     )
 }
 
