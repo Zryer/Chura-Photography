@@ -1,4 +1,9 @@
 .contactContainer {
     height: 25vh;
     background-color: darkslategray;
+    text-align: center;
+}
+
+.contactLinks {
+    color: red;
 }

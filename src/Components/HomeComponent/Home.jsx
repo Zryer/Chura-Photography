@@ -1,19 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-
+import { Container, Row, Col } from 'react-bootstrap';
+import Welcome from '../WelcomeComponent/Welcome';
 
 const Home = () => {
     return (
-        <>
-                   
-        <Container className="homeContainer" id="Home" fluid>
-            <Row>
-                <Col>
-                    <h1>Hello</h1>
-                    <Button>Button doing things</Button>
-                </Col>
-            </Row>
-        </Container>
+        <>            
+            <Welcome />
+            <Container fluid className="homeContainer" id="Home">
+                <Row>
+                    <Col className="homeDiv">
+                        <Col className="homeText">Get To Know Me Below</Col>
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }

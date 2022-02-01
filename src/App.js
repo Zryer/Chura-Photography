@@ -10,7 +10,6 @@ import Contact from './Components/ContactComponent/Contact';
 const App = () => {
     return (
         <>
-
             <Navi />
             <Home />
             <About />

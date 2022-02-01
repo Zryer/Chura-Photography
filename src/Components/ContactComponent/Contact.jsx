@@ -1,14 +1,19 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 const Contact = () => {
     return (
         <Container className="contactContainer" id="Contact" fluid>
             <Row>
-                <Col>
-                    <h1>Hello</h1>
-                    <Button>Button doing things</Button>
+                <Col xs={12}>
+                    <h1>Follow For More!</h1>
+                </Col>
+                <Col className="contactLinks" xs={6}>
+                    <h1>This will be a link to Insta</h1>
+                </Col>
+                <Col className="contactLinks" xs={6}>
+                    <h1>This will be a link to Email</h1>
                 </Col>
             </Row>
         </Container>

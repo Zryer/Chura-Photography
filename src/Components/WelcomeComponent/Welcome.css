@@ -1,18 +1,33 @@
 .welcomeContainer {
-    height: 100vh;
-    animation: fadeAway ease 3s; 
+    display: flex;
+    justify-content: center;
+    background-image: url(../../Images/sakuraWelcome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    animation: fadeAway ease-in 3s; 
     animation-fill-mode: forwards;
-    z-index: 1000;
+    height: 100vh;
+    cursor: default;
 }
 
 @keyframes fadeAway {
     0% {
         opacity: 1;
-        background-color: red;
     }
     100% {
         opacity: 0;
-        background-color: blue;
-        z-index: -1;
+        background-color: #FFF
     }
+}
+
+.welcomeTitle {
+    font-size: 8vw;
+    color: #ffb7c5;
+}
+
+.welcomeDiv {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

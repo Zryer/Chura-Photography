@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 const Photos = () => {
@@ -7,8 +7,7 @@ const Photos = () => {
         <Container className="photosContainer" id="Photos" fluid>
             <Row>
                 <Col>
-                    <h1>Hello</h1>
-                    <Button>Button doing things</Button>
+                    
                 </Col>
             </Row>
         </Container>
