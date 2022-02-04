@@ -1,15 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-
+import { Container } from 'react-bootstrap';
+import { Outlet } from 'react-router-dom';
 
 const Photos = () => {
     return (
-        <Container className="photosContainer" id="Photos" fluid>
-            <Row>
-                <Col>
-                    
-                </Col>
-            </Row>
+        <Container className="photosContainer" fluid>
+            <Outlet />
         </Container>
     )
 }

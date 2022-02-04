@@ -29,6 +29,22 @@
 }
 
 .navbar {
-    justify-content: center;
+    justify-content: flex-end;
     padding: 0;
+    font-size: 2rem;
+    height: 6vh;
+}
+
+.navbarBrand {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000
+}
+
+
+.navLinks {
+    text-decoration: none;
+    color: #000;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }

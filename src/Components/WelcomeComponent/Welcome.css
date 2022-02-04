@@ -7,7 +7,7 @@
     background-position: 0% 0%;
     animation: fadeAway ease-in 3s; 
     animation-fill-mode: forwards;
-    height: 100vh;
+    height: 100%;
     cursor: default;
 }
 

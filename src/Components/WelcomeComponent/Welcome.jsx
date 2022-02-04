@@ -6,7 +6,7 @@ const Welcome = () => {
         <Container fluid className="welcomeContainer position-absolute top-50 start-50 translate-middle">
             <Row>
                 <Col className="welcomeDiv">
-                    <Col className="welcomeTitle">Sakura Photography</Col>
+                    <Col className="welcomeTitle">Chura Photography</Col>
                 </Col>
             </Row>
         </Container>
