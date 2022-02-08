@@ -8,6 +8,7 @@
     animation: fadeAway ease-in 3s; 
     animation-fill-mode: forwards;
     height: 100%;
+    z-index: 100;
     cursor: default;
 }
 

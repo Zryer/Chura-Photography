@@ -1,6 +1,6 @@
 .contactContainer {
     text-align: center;
-    height: 93.5vh;
+    height: 100vh;
 }
 
 .contactRow {
@@ -8,13 +8,13 @@
 }
 
 .contactTitle {
-    padding-top: 5vh;
-    font-size: 8vh;
+    padding-top: 15vh;
+    font-size: 8vw;
     color: #000;
 }
 
 .contactIcon {
-    font-size: 15vh;
+    font-size: 15vw;
 }
 
 .contactInsta {
@@ -28,7 +28,7 @@
 .instaCaption {
     color: #DD2A7B;
     text-decoration: none;
-    font-size: 5vh;
+    font-size: 5vw;
 }
 
 .instaCaption:hover {
@@ -46,7 +46,7 @@
 .mailCaption {
     color: #31A9F6;
     text-decoration: none;
-    font-size: 5vh;
+    font-size: 5vw;
 }
 
 .mailCaption:hover {

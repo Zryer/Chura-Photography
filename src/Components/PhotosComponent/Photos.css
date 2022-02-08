@@ -1,11 +1,11 @@
 .photosContainer {
-    padding-top: 2rem;
+    padding-top: 10vh;
     background-color: aqua;
-    height:93.5vh;
+    height:100vh;
 }
 
 .photos {
-    width: 20rem;
+    width: 20vw;
 
 }
 

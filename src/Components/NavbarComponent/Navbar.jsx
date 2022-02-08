@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Navi = () => {
     return (
-            <Navbar collapseOnSelect bg="light" sticky="top" expand="lg">
+            <Navbar collapseOnSelect bg="light" fixed="top" expand="lg">
                 <Container fluid>
                     <Navbar.Brand><Link to="" className="navbarBrand">Chura Photography</Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
