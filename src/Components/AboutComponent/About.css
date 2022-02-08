@@ -1,4 +1,26 @@
 .aboutContainer {
-    height: 94vh;
-    background-color: purple;
+    height: 93.5vh;
+}
+
+.aboutImage {
+    width: 100%;
+    height: auto;
+    margin-left: 5rem;
+    box-shadow: 5px 10px;
+}
+
+.aboutContent {
+    color: #000;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.aboutRow {
+    height: 100%;
+}
+
+.aboutCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

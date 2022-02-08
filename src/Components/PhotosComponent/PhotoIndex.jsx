@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Figure } from 'react-bootstrap';
 import { PHOTOSLIST } from './PhotosList';
 
 const PhotoIndex = () => {
@@ -9,12 +9,21 @@ const PhotoIndex = () => {
             <Row>
                 {PHOTOSLIST.map(obj => {
                     return (
-                        <Col key={obj.id}>
+                        <Col key={obj.id} xs={4} className="photoDiv">
                             <Link to={`/Photos/${obj.name}`}>
-                                <Col>
-                                    <h2>{obj.name}</h2>
-                                    <img src={obj.image} alt={obj.alt} />
-                                </Col>
+                                <Figure>
+                                    <Figure.Image 
+                                        width={obj.width}
+                                        alt={obj.alt}
+                                        src={obj.image}
+                                        className="photos"
+                                    />
+                                    <h1>{obj.name}</h1>
+                                    <Figure.Caption>
+                                        {obj.name}
+                                    </Figure.Caption>
+                                    
+                                </Figure>
                             </Link>
                         </Col>
                     )

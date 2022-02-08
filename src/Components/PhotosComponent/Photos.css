@@ -1,4 +1,14 @@
 .photosContainer {
-    height: 94vh;
+    padding-top: 2rem;
     background-color: aqua;
+    height:93.5vh;
+}
+
+.photos {
+    width: 20rem;
+
+}
+
+.photoDiv {
+    text-align: center;
 }

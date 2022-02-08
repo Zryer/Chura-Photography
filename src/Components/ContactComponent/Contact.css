@@ -1,7 +1,8 @@
 .contactContainer {
-    height: 94vh;
     background-color: darkslategray;
     text-align: center;
+    height: 100vh;
+    padding-top: 3rem;
 }
 
 .contactLinks {
