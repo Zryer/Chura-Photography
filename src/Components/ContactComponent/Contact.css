@@ -1,10 +1,54 @@
 .contactContainer {
-    background-color: darkslategray;
     text-align: center;
-    height: 100vh;
-    padding-top: 3rem;
+    height: 93.5vh;
 }
 
-.contactLinks {
-    color: red;
+.contactRow {
+    height: 100%;
+}
+
+.contactTitle {
+    padding-top: 3rem;
+    font-size: 8rem;
+    color: #000;
+}
+
+.contactIcon {
+    font-size: 10rem;
+}
+
+.contactInsta {
+    color: #DD2A7B;
+}
+
+.contactInsta:hover {
+    color: #cc1266;
+}
+
+.instaCaption {
+    color: #DD2A7B;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.instaCaption:hover {
+    color: #cc1266;
+}
+
+.contactMail {
+    color: #31A9F6;
+}
+
+.contactMail:hover {
+    color: #2d9ce3;
+}
+
+.mailCaption {
+    color: #31A9F6;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.mailCaption:hover {
+    color: #2d9ce3;
 }
