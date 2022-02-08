@@ -1,11 +1,11 @@
 .aboutContainer {
-    height: 93.5vh;
+    height: 100vh;
 }
 
 .aboutImage {
-    width: 100%;
+    width: 50vw;
     height: auto;
-    margin-left: 5rem;
+    margin-left: 10vh;
     box-shadow: 5px 10px;
 }
 
