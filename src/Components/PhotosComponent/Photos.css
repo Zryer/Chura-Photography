@@ -7,8 +7,9 @@
 .photos {
     width: 100%;
     height: auto;
-}
+    border: solid #000;
 
+}
 
 .photoDiv {
     text-align: center;

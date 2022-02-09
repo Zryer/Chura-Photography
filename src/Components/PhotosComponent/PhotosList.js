@@ -5,7 +5,6 @@ export const PHOTOSLIST = [
         image: require("../../Images/soul.jpg"),
         alt: "Soul",
         width: "photoWidth50",
-        height: "390"
     },
     {
         id: 1,
