@@ -1,14 +1,26 @@
 .photosContainer {
     padding-top: 10vh;
     background-color: aqua;
-    height:100vh;
+    height:100%;
 }
 
 .photos {
-    width: 20vw;
-
+    width: 100%;
+    height: auto;
 }
+
 
 .photoDiv {
     text-align: center;
 }
+
+.photoWidth30 {
+    width: 30vw;
+    height: auto;
+}
+
+.photoWidth50 {
+    width: 50vw;
+    height: auto;
+}
+

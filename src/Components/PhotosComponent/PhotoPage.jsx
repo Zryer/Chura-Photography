@@ -15,14 +15,14 @@ const PhotoPage = () => {
         )
     }
 
-    const { name, image, alt } = photo;
+    const { name, image, alt, width } = photo;
 
     return (
         <Container fluid>
             <Row>
                 <Col>
                     <h2>{name}</h2>
-                    <img src={image} alt={alt} />
+                    <img className={width} src={image} alt={alt} />
                     <h2>Testing</h2>
                 </Col>
 
