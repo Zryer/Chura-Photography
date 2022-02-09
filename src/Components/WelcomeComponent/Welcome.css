@@ -1,24 +1,24 @@
 .welcomeContainer {
     display: flex;
     justify-content: center;
-    background-image: url(../../Images/sakuraWelcome.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
+    background: url(../../Images/sakuraWelcome.png) center 0/cover no-repeat fixed;
+    background-color: #ffb7c5;
+    height: 100%;
+    position: absolute;
+    cursor: default;
     animation: fadeAway ease-in 3s; 
     animation-fill-mode: forwards;
-    height: 100%;
-    z-index: 100;
-    cursor: default;
 }
 
 @keyframes fadeAway {
     0% {
         opacity: 1;
+        z-index: 100;
     }
     100% {
         opacity: 0;
-        background-color: #FFF
+        background-color: #FFF;
+        z-index: 0;
     }
 }
 
