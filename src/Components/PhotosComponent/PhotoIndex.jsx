@@ -5,7 +5,7 @@ import { PHOTOSLIST } from './PhotosList';
 
 const PhotoIndex = () => {
     return (
-        <Container fluid>
+        <Container className="photoIndexContainer" fluid>
             <Row>
                 {PHOTOSLIST.map(obj => {
                     return (

@@ -1,6 +1,5 @@
 .photosContainer {
     padding-top: 10vh;
-    background-color: aqua;
     height:100%;
 }
 
@@ -13,6 +12,19 @@
 
 .photoDiv {
     text-align: center;
+    animation: moveRight ease 2s;
+    padding: 0;
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: .5;
+        transform: translateX(-100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .photoWidth30 {
@@ -23,5 +35,10 @@
 .photoWidth50 {
     width: 50vw;
     height: auto;
+
 }
 
+.photoPageContainer {
+    text-align: center;
+    height: 100%;
+}

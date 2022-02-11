@@ -18,8 +18,8 @@ const PhotoPage = () => {
     const { name, image, alt, width } = photo;
 
     return (
-        <Container fluid>
-            <Row>
+        <Container className="photoPageContainer" fluid>
+            <Row className="photoPageRow">
                 <Col>
                     <h2>{name}</h2>
                     <img className={width} src={image} alt={alt} />
