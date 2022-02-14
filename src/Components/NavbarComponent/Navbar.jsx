@@ -12,10 +12,9 @@ const Navi = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="navbar">
                             <Nav>
-                                <Nav.Link href="/"><Link to="" className="navLinks">Home</Link></Nav.Link>
-                                <Nav.Link href="About"><Link to="About" className="navLinks">About</Link></Nav.Link>
-                                <Nav.Link href="Photos"><Link to="Photos" className="navLinks">Photos</Link></Nav.Link>
-                                <Nav.Link href="Contact"><Link to="Contact" className="navLinks">Contact</Link></Nav.Link>
+                                <Nav.Link><Link to="About" className="navLinks">About</Link></Nav.Link>
+                                <Nav.Link><Link to="Photos" className="navLinks">Photos</Link></Nav.Link>
+                                <Nav.Link><Link to="Contact" className="navLinks">Contact</Link></Nav.Link>
                             </Nav>
                             </Navbar.Collapse>
                 </Container>

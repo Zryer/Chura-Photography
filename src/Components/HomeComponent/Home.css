@@ -7,24 +7,70 @@
     position: absolute;
 }
 
-.homeDiv {
-    display:flex;
+.testContainer {
+    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
-.homeText {
-    font-size: 8vw;
+.homeDivName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeName {
+    font-size: 12vw;
     color: #ffb7c5;
     animation: fadeIn ease-in 3s; 
     animation-fill-mode: forwards;
     text-decoration: none;
-    padding-bottom: 10vh;
     z-index: 101;
+    padding: none;
+    text-align: center;
+    margin-bottom: 3vh;
 }
 
-.homeText:hover {
-    color: #ffabbb;
+.homeDivText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeText {
+    font-size: 4vw;
+    color: #ffb7c5;
+    animation: fadeIn ease-in 3s; 
+    animation-fill-mode: forwards;
+    text-decoration: none;
+    z-index: 101;
+    padding: none;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.homeDivLinks {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeLinks {
+    font-size: 4vw;
+    color: #ffb7c5;
+    animation: fadeIn ease-in 3s; 
+    animation-fill-mode: forwards;
+    text-decoration: none;
+    z-index: 101;
+    padding: .5vw;
+    text-align: center;
+    border: solid 5px #ffb7c5;
+}
+
+.homeLinks:hover {
+    background-color: #ffb7c5;
+    color: #000;
 }
 
 @keyframes fadeIn {
@@ -35,3 +81,4 @@
         opacity: 1;
     }
 }
+
