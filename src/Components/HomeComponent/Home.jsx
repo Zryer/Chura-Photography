@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Welcome />
-            <Container fluid className="homeContainer">
+            <Container fluid className="homeContainer" id="home">
                 <Row>
                     <Col className="testContainer">
                     <Col className="homeDivName" xs={12}>

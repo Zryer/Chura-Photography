@@ -1,7 +1,7 @@
 .homeContainer {
     display: flex;
     justify-content: center;
-    background: url(../../Images/sakuraHome.png) center 0/cover no-repeat fixed;
+    background: url(../../Images/background.jpg) center 0/cover no-repeat fixed;
     background-color: #ffb7c5;
     height: 100%;
     position: absolute;
@@ -21,7 +21,7 @@
 }
 
 .homeName {
-    font-size: 12vw;
+    font-size: 8vw;
     color: #ffb7c5;
     animation: fadeIn ease-in 3s; 
     animation-fill-mode: forwards;
@@ -39,7 +39,7 @@
 }
 
 .homeText {
-    font-size: 4vw;
+    font-size: 2vw;
     color: #ffb7c5;
     animation: fadeIn ease-in 3s; 
     animation-fill-mode: forwards;
@@ -57,7 +57,7 @@
 }
 
 .homeLinks {
-    font-size: 4vw;
+    font-size: 2vw;
     color: #ffb7c5;
     animation: fadeIn ease-in 3s; 
     animation-fill-mode: forwards;

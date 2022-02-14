@@ -13,7 +13,6 @@ import PhotoPage from './Components/PhotosComponent/PhotoPage';
 const App = () => {
     return (
         <>
-            <Navi />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="About" element={<About />} />
@@ -23,6 +22,7 @@ const App = () => {
                 </Route>
                 <Route path="Contact" element={<Contact />} />
             </Routes>
+            <Navi/>
         </>
     )
 }

@@ -7,3 +7,7 @@
 body {
     background-color: #ffb7c5;
 }
+
+#home+#navi {
+    display: none;
+}
