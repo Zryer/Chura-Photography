@@ -63,9 +63,9 @@
     animation-fill-mode: forwards;
     text-decoration: none;
     z-index: 101;
-    padding: .5vw;
+    padding: .3vw;
     text-align: center;
-    border: solid 5px #ffb7c5;
+    border: solid 0.3vw #ffb7c5;
 }
 
 .homeLinks:hover {
