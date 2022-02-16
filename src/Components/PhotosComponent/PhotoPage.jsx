@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { useParams, Link } from 'react-router-dom';
 import { PHOTOSLIST } from './PhotosList';
 
 const PhotoPage = () => {
@@ -24,6 +24,7 @@ const PhotoPage = () => {
                     <h2>{name}</h2>
                     <img className={width} src={image} alt={alt} />
                     <h2>Testing</h2>
+                    <Link to="/Photos">Back To Photos</Link>
                 </Col>
 
             </Row>

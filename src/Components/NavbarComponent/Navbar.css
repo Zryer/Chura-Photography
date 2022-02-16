@@ -28,7 +28,7 @@
     }
 }
 
-.navbar {
+.openNavbar {
     justify-content: flex-end;
     padding: 0;
     font-size: 2rem;
@@ -37,7 +37,7 @@
 .navbarBrand {
     font-size: 2rem;
     text-decoration: none;
-    color: #000
+    color: #000;
 }
 
 
@@ -50,4 +50,12 @@
 
 .navLinks:hover {
     color: #ffb7c5;
+}
+
+.fullNavbar {
+    padding: 0;
+}
+
+.containerNavbar {
+    background-color: #b7fff1;
 }
