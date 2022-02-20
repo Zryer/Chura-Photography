@@ -1,5 +1,5 @@
 .photosContainer {
-    padding-top: 10vh;
+    padding-top: 15vh;
     height:100%;
 }
 
@@ -7,12 +7,15 @@
     width: 100%;
     height: auto;
     border: solid #000;
+}
 
+.photos:hover {
+    opacity: 0.7;
 }
 
 .photoDiv {
     text-align: center;
-    animation: moveRight ease 2s;
+    animation: moveRight ease-out 2s;
 }
 
 @keyframes moveRight {
@@ -34,10 +37,14 @@
 .photoWidth50 {
     width: 50vw;
     height: auto;
-
+    border: solid #000;
 }
 
 .photoPageContainer {
     text-align: center;
     height: 100%;
+}
+
+.photoPageTitle {
+    font-size: 8vh;
 }

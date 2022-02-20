@@ -32,7 +32,7 @@
 }
 
 .instaCaption:hover {
-    color: #cc1266;
+    cursor: default;
 }
 
 .contactMail {
@@ -50,5 +50,5 @@
 }
 
 .mailCaption:hover {
-    color: #2d9ce3;
+    cursor: default;
 }

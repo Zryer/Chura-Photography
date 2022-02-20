@@ -1,7 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-
-import Navi from './Components/NavbarComponent/Navbar';
 import Home from './Components/HomeComponent/Home';
 import About from './Components/AboutComponent/About';
 import Photos from './Components/PhotosComponent/Photos';
@@ -22,7 +20,6 @@ const App = () => {
                 </Route>
                 <Route path="Contact" element={<Contact />} />
             </Routes>
-            <Navi/>
         </>
     )
 }

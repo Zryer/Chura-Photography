@@ -17,11 +17,6 @@ const PhotoIndex = () => {
                                         src={obj.image}
                                         className="photos"
                                     />
-                                    <h1>{obj.name}</h1>
-                                    <Figure.Caption>
-                                        {obj.name}
-                                    </Figure.Caption>
-                                    
                                 </Figure>
                             </Link>
                         </Col>

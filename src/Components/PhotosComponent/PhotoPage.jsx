@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { useParams, Link } from 'react-router-dom';
 import { PHOTOSLIST } from './PhotosList';
 
@@ -15,15 +15,15 @@ const PhotoPage = () => {
         )
     }
 
-    const { name, image, alt, width } = photo;
+    const { name, image, alt, width, text } = photo;
 
     return (
-        <Container className="photoPageContainer" fluid>
+        <Container className="photoPageContainer" id="photoPage" fluid>
             <Row className="photoPageRow">
                 <Col>
-                    <h2>{name}</h2>
+                    <h1 className="photoPageTitle">{name}</h1>
                     <img className={width} src={image} alt={alt} />
-                    <h2>Testing</h2>
+                    <h2>{text}</h2>
                     <Link to="/Photos">Back To Photos</Link>
                 </Col>
 

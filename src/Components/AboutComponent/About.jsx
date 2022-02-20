@@ -1,9 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Sakura from '../../Images/sakuraHome.png';
+import Navi from '../NavbarComponent/Navbar';
 
 const About = () => {
     return (
+        <>
+        <Navi/>
         <Container className="aboutContainer" fluid>
             <Row className="aboutRow">
                 <Col className="aboutCol">
@@ -14,6 +17,7 @@ const About = () => {
                 </Col>
             </Row>
         </Container>
+        </>
     )
 }
 

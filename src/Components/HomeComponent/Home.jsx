@@ -8,8 +8,8 @@ const Home = () => {
         <>
             <Welcome />
             <Container fluid className="homeContainer" id="home">
-                <Row>
-                    <Col className="testContainer">
+                <Row className="homeRow">
+                    <Col className="mainContainer">
                     <Col className="homeDivName" xs={12}>
                         <h1 className="homeName">Sakura Wilson</h1>
                     </Col>
@@ -17,9 +17,9 @@ const Home = () => {
                         <p className="homeText">Aspiring photographer in Oahu</p>
                     </Col>
                     <Col className="homeDivLinks" xs={12}>
-                        <Link to="About" className="homeLinks">About</Link>
-                        <Link to="Photos" className="homeLinks">Photos</Link>
-                        <Link to="Contact" className="homeLinks">Contact</Link>
+                        <Link to="/About" className="homeLinks">About</Link>
+                        <Link to="/Photos" className="homeLinks">Photos</Link>
+                        <Link to="/Contact" className="homeLinks">Contact</Link>
                     </Col>
                     </Col>
                 </Row>
