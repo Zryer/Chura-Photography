@@ -10,7 +10,7 @@ const PhotoIndex = () => {
                 {PHOTOSLIST.map(obj => {
                     return (
                         <Col key={obj.id} sm={12} md={6} lg={6} className="photoDiv">
-                            <Link to={`/Photos/${obj.name}`}>
+                            <Link to={`/Photos/${obj.name}`} tabIndex={-1}>
                                 <Figure>
                                     <Figure.Image
                                         alt={obj.alt}

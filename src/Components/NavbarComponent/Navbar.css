@@ -1,4 +1,4 @@
-.navbarBrand:hover {
+.navbarBrandText:hover {
     animation: colorChanger ease 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -34,12 +34,19 @@
     font-size: 2rem;
 }
 
-.navbarBrand {
+.navbarBrandText {
     font-size: 2rem;
     text-decoration: none;
     color: #000;
 }
 
+.navbarBrand {
+    margin: 0;
+}
+
+.navbarButton {
+    border:none;
+}
 
 .navLinks {
     text-decoration: none;
@@ -57,6 +64,6 @@
 }
 
 .containerNavbar {
-    background-color: #ffb7c5;
+    background-color: #ded8d9;
     flex-direction: column;
 }
