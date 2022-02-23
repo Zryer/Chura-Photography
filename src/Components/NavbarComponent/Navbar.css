@@ -35,7 +35,7 @@
 }
 
 .navbarBrandText {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: #000;
 }
@@ -48,16 +48,6 @@
     border:none;
 }
 
-.navLinks {
-    text-decoration: none;
-    color: #000;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-}
-
-.navLinks:hover {
-    color: #c5ffb7;
-}
 
 .fullNavbar {
     padding: 0;
@@ -66,4 +56,29 @@
 .containerNavbar {
     background-color: #ded8d9;
     flex-direction: column;
+}
+
+.navLinks {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navLinks:hover {
+    color: #c5ffb7;
+    -webkit-text-fill-color: #c5ffb7;
+}
+
+.navLinkIcon {
+    margin-left: .25vw;
+    margin-right: .25vw;
+}
+
+.navLinkTitle {
+    margin-left: .25vw;
+    margin-right: .25vw;
 }
