@@ -1,22 +1,6 @@
 .aboutContainer {
     height: 100%;
-    padding-top: 15vh;
-}
-
-.aboutImage {
-    width: 80vmin;
-    height: auto;
-    box-shadow: 5px 10px;
-}
-
-.aboutContent {
-    color: #000;
-    text-align: center;
-    font-size: 10vmax;
-}
-
-.aboutRow {
-    height: 500px;
+    margin-top: 15vh;
 }
 
 .aboutCol {
@@ -24,4 +8,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.aboutImage {
+    width: 80vmin;
+    height: auto;
+}
+
+.aboutContent {
+    color: #000;
+    text-align: center;
+    font-size: 10vmin;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
