@@ -9,7 +9,7 @@ const Contact = () => {
         <Container className="contactContainer" fluid>
             <Row className="contactRow">
                 <Col xs={12}>
-                    <h1 className="contactTitle">Follow For More!</h1>
+                    <h1 className="contactTitle">Reach Me With These!</h1>
                 </Col>
                 <Col xs={6}>
                     <a href="https://www.instagram.com/chura_photography/?hl=en" className="contactInsta" target="_blank" rel="noreferrer"><i className="fab fa-instagram contactIcon"></i></a>
