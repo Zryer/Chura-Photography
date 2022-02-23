@@ -1,6 +1,7 @@
 .contactContainer {
     text-align: center;
     height: 100vh;
+    padding-top: 15vh;
 }
 
 .contactRow {
@@ -8,7 +9,6 @@
 }
 
 .contactTitle {
-    padding-top: 15vh;
     font-size: 8vw;
     color: #000;
 }

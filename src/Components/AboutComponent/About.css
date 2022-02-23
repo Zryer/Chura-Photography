@@ -1,9 +1,10 @@
 .aboutContainer {
-    height: 100vh;
+    height: 100%;
+    padding-top: 15vh;
 }
 
 .aboutImage {
-    width: 25vw;
+    width: 80vmin;
     height: auto;
     box-shadow: 5px 10px;
 }
@@ -11,11 +12,11 @@
 .aboutContent {
     color: #000;
     text-align: center;
-    font-size: 10vw;
+    font-size: 10vmax;
 }
 
 .aboutRow {
-    height: 100%;
+    height: 500px;
 }
 
 .aboutCol {

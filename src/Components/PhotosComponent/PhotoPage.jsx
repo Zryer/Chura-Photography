@@ -24,6 +24,7 @@ const PhotoPage = () => {
                     <h1 className="photoPageTitle">{name}</h1>
                     <img className={width} src={image} alt={alt} />
                     <h2>{text}</h2>
+                    <Link to="/Photos" className="photoBack">Back to Photos</Link>
                 </Col>
 
             </Row>

@@ -48,3 +48,13 @@
 .photoPageTitle {
     font-size: 8vh;
 }
+
+.photoBack {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .photoBack {
+        display: block;
+    }
+}
