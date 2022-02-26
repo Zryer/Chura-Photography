@@ -1,19 +1,19 @@
 export const PHOTOSLIST = [
     {
         id: 0,
-        name: "House",
+        name: "Church",
         image: require("../../Images/house.jpg"),
-        alt: "House",
+        alt: "Church",
         width: "photoWidth50",
-        text: "test",
+        text: "“Officers Row” features these beautifully structured bungalows from 1920s-1930s. These houses were extremely popular with military families. In 1913, LT. Harold Geiger created an aviation station near these houses, which started with two Curtiss seaplanes. These boarded houses now serve as historical landmarks, showing visitors the area in which past families lived.",
     },
     {
         id: 1,
         name: "Sakura",
         image: require("../../Images/sakuraHome.png"),
-        alt: "Image 2",
+        alt: "Sakura",
         width: "photoWidth50",
-        text: "A black and white picture of Sakura",
+        text: "Portraits: B/W with a twist",
     },
 
     {
@@ -22,7 +22,7 @@ export const PHOTOSLIST = [
         image: require("../../Images/background.jpg"),
         alt: "Sunset",
         width: "photoWidth50",
-        text: "test",
+        text: "Landscape photography: Ocean",
 
     },
     {
@@ -31,15 +31,15 @@ export const PHOTOSLIST = [
         image: require("../../Images/chris.jpg"),
         alt: "Chris",
         width: "photoWidth50",
-        text: "test",
+        text: "Photoshoot: Biking in Abandoned Housing",
 
     },
     {
         id: 4,
-        name: "Soul",
+        name: "Dreaming",
         image: require("../../Images/soul.jpg"),
-        alt: "Soul",
+        alt: "Dreaming",
         width: "photoWidth50",
-        text: "test",
+        text: "Creative shoot: Lost in your dreams",
     },
 ]
