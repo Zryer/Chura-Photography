@@ -4,17 +4,14 @@
     padding-top: 15vh;
 }
 
-.contactRow {
-    height: 100%;
-}
-
 .contactTitle {
-    font-size: 8vw;
+    font-size: 8vmin;
     color: #000;
+    margin-bottom: 10vh;
 }
 
 .contactIcon {
-    font-size: 15vw;
+    font-size: 5vmax;
 }
 
 .contactInsta {
@@ -28,7 +25,7 @@
 .instaCaption {
     color: #DD2A7B;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 2vmax;
 }
 
 .instaCaption:hover {
@@ -46,9 +43,34 @@
 .mailCaption {
     color: #31A9F6;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 2vmax;
 }
 
 .mailCaption:hover {
     cursor: default;
+}
+
+.formLabel {
+    display: flex;
+    font-size: 5vmin;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    align-items: center;
+}
+
+.smallCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
