@@ -1,7 +1,7 @@
 .contactContainer {
     text-align: center;
     height: 100vh;
-    padding-top: 15vh;
+    margin-top: 2vh;
 }
 
 .contactTitle {
@@ -11,7 +11,7 @@
 }
 
 .contactIcon {
-    font-size: 5vmax;
+    font-size: 15vmax;
 }
 
 .contactInsta {
@@ -22,16 +22,6 @@
     color: #cc1266;
 }
 
-.instaCaption {
-    color: #DD2A7B;
-    text-decoration: none;
-    font-size: 2vmax;
-}
-
-.instaCaption:hover {
-    cursor: default;
-}
-
 .contactMail {
     color: #31A9F6;
 }
@@ -40,37 +30,15 @@
     color: #2d9ce3;
 }
 
-.mailCaption {
-    color: #31A9F6;
-    text-decoration: none;
-    font-size: 2vmax;
-}
-
-.mailCaption:hover {
-    cursor: default;
-}
-
 .formLabel {
     display: flex;
     font-size: 5vmin;
 }
 
-.left {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    align-items: center;
+.formButton {
+    margin-top: 3vh;
 }
 
-.right {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0;
-    align-items: center;
-}
-
-.smallCol {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.formCol {
+    padding-left: 5vw;
 }

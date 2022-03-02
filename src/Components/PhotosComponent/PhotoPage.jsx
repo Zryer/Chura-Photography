@@ -26,7 +26,6 @@ const PhotoPage = () => {
                     <h2>{text}</h2>
                     <Link to="/Photos" className="photoBack">Back to Photos</Link>
                 </Col>
-
             </Row>
         </Container>
     )

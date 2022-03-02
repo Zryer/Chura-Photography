@@ -1,11 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Figure } from 'react-bootstrap';
+import { Container, Row, Col, Figure, Button } from 'react-bootstrap';
 import { PHOTOSLIST } from './PhotosList';
 
 const PhotoIndex = () => {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 500) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+
     return (
-        <Container className="photoIndexContainer" fluid>
+        <Container className="photoIndexContainer" id="photoIndexContainer" fluid>
             <Row>
                 {PHOTOSLIST.map(obj => {
                     return (
@@ -23,6 +47,9 @@ const PhotoIndex = () => {
                     )
                 })}
             </Row>
+            <Col className="photoIndexDiv">
+                {isVisible && <Button onClick={scrollToTop}>Scroll back to top</Button>}
+            </Col>
         </Container>
     )
 }

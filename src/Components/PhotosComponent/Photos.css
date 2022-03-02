@@ -1,6 +1,8 @@
 .photosContainer {
-    padding-top: 15vh;
+    padding-top: 2vh;
     height:100%;
+    overflow-y: initial;
+    overflow-x: initial;
 }
 
 .photos {
@@ -57,4 +59,10 @@
     .photoBack {
         display: block;
     }
+}
+
+.photoIndexDiv {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

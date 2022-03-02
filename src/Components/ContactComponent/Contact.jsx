@@ -14,59 +14,34 @@ const Contact = () => {
                 </Row>
 
                 <Row>
-
-                    <Col xs="5" className="smallCol">
-                        <Row>
-                            <Col xs={12}>
-                                <Row>
-                                    <Col xs={6} className="left"><a href="https://www.instagram.com/chura_photography/?hl=en" className="contactInsta" target="_blank" rel="noreferrer"><i className="fab fa-instagram contactIcon"></i></a></Col>
-                                    <Col xs={6} className="right"><div className="instaCaption">Instagram</div></Col>
-                                </Row>
-                            </Col>
-                            <Col xs={12}>
-                                <Row>
-                                    <Col xs={6} className="left"><a href="https://www.instagram.com/chura_photography/?hl=en" className="contactMail" target="_blank" rel="noreferrer"><i className="fas fa-envelope-open contactIcon"></i></a></Col>
-                                    <Col xs={6} className="right"><div className="mailCaption">Mail</div></Col>
-                                </Row>
-                            </Col>
-                            <Col xs={12}>
-                                <a href="https://www.instagram.com/chura_photography/?hl=en" className="contactMail" target="_blank" rel="noreferrer"><i className="fas fa-envelope-open contactIcon"></i></a>
-                                <div className="mailCaption">Mail</div>
-                            </Col>
-                        </Row>
-                    </Col>
-
-                    <Col xs="7">
-                        <Form>
+                    <Col xs="5" className="formCol">
+                        <Form action="https://getform.io/f/a2b398a2-c5e5-4833-9550-8fc08a35bc7f" method="POST" encType="multipart/form-data">
                             <Form.Group>
-                                <Row>
-                                    <Col xs={12}><Form.Label className="formLabel">Name</Form.Label></Col>
-                                    <Col xs={6}><Form.Control type="text" /><Form.Text>First Name</Form.Text></Col>
-                                    <Col xs={6}><Form.Control type="text" /><Form.Text>Last Name</Form.Text></Col>
-                                </Row>
+                                <Form.Label className="formLabel" htmlFor="name">Name *</Form.Label>
+                                <Form.Control type="text" id="name" name="name" required />
                             </Form.Group>
                             <Form.Group>
-                                <Row>
-                                    <Col xs={12}><Form.Label className="formLabel">Email</Form.Label></Col>
-                                    <Col xs={12}><Form.Control type="email" /><Form.Text>Email</Form.Text></Col>
-                                </Row>
+                                <Form.Label className="formLabel" htmlFor="email">Email *</Form.Label>
+                                <Form.Control type="email" id="email" name="email" required />
                             </Form.Group>
                             <Form.Group>
-                                <Row>
-                                    <Col xs={12}><Form.Label className="formLabel">Message</Form.Label></Col>
-                                    <Col xs={12}><Form.Control as="textarea" /><Form.Text>Leave a message below for me</Form.Text></Col>
-                                </Row>
+                                <Form.Label className="formLabel" htmlFor="message">Message</Form.Label>
+                                <Form.Control as="textarea" id="message" name="message" />
                             </Form.Group>
-                            <Row>
-                                <Col xs={12}>
-                                    <Button variant="primary" type="submit" className="formLabel">
-                                        Submit
-                                    </Button>
-                                </Col>
-                            </Row>
+                            <Button variant="primary" type="submit" className="formLabel formButton">
+                                Submit
+                            </Button>
                         </Form>
                     </Col>
 
+                    <Col xs="7">
+                        <Col>
+                            <a href="https://www.instagram.com/chura_photography/?hl=en" className="contactInsta" target="_blank" rel="noreferrer"><i className="fab fa-instagram contactIcon"></i></a>
+                        </Col>
+                        <Col>
+                            <a href="https://www.instagram.com/chura_photography/?hl=en" className="contactMail" target="_blank" rel="noreferrer"><i className="fas fa-envelope contactIcon"></i></a>
+                        </Col>
+                    </Col>
                 </Row>
             </Container>
         </>

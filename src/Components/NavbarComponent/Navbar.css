@@ -31,7 +31,7 @@
 .openNavbar {
     justify-content: flex-end;
     padding: 0;
-    font-size: 2rem;
+    font-size: 4vh;
 }
 
 .navbarBrandText {
@@ -73,12 +73,7 @@
     -webkit-text-fill-color: #c5ffb7;
 }
 
-.navLinkIcon {
-    margin-left: .25vw;
-    margin-right: .25vw;
-}
-
-.navLinkTitle {
-    margin-left: .25vw;
-    margin-right: .25vw;
+.navLinkCol {
+    display: flex;
+    flex-direction: column;
 }
