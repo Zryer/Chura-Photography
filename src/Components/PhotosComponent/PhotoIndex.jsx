@@ -33,7 +33,7 @@ const PhotoIndex = () => {
             <Row>
                 {PHOTOSLIST.map(obj => {
                     return (
-                        <Col key={obj.id} sm={12} md={6} lg={6} className="photoDiv">
+                        <Col key={obj.id} sm={12} md={6} lg={6} className={`${obj.animation}`}>
                             <Link to={`/Photos/${obj.name}`} tabIndex={-1}>
                                 <Figure>
                                     <Figure.Image

@@ -10,3 +10,58 @@ body {
     background-color: #ffb7c5;
     font-family: 'Noto Sans', sans-serif;
 }
+
+@keyframes xLeft {
+    0% {
+        opacity: .5;
+        transform: translateX(100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes xRight {
+    0% {
+        opacity: .5;
+        transform: translateX(-100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes xLeftPhotos {
+    0% {
+        opacity: .5;
+        transform: translateX(50vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes xRightPhotos {
+    0% {
+        opacity: .5;
+        transform: translateX(-50vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes yDown {
+    0% {
+        opacity: .5;
+        transform: translateY(-50vh)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
