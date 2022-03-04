@@ -1,7 +1,54 @@
 .aboutContainer {
     height: 100%;
     margin-top: 2vh;
+    animation: yDown ease-out 1.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
 }
+
+.aboutRow2 {
+    animation: xRight ease-out 2s;
+    animation-fill-mode: forwards;
+}
+
+.aboutRow3 {
+    animation: xLeft ease-out 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes yDown {
+    0% {
+        opacity: .5;
+        transform: translateY(-50vh)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes xLeft {
+    0% {
+        opacity: .5;
+        transform: translateX(100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes xRight {
+    0% {
+        opacity: .5;
+        transform: translateX(-100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 
 .aboutCol {
     display: flex;

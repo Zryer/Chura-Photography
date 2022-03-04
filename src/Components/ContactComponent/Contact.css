@@ -42,3 +42,8 @@
 .formCol {
     padding-left: 5vw;
 }
+
+.nameFormControl {
+    border-color: purple;
+    border-width: .3vw;
+}

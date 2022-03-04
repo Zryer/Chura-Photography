@@ -18,18 +18,22 @@ const Contact = () => {
                         <Form action="https://getform.io/f/a2b398a2-c5e5-4833-9550-8fc08a35bc7f" method="POST" encType="multipart/form-data">
                             <Form.Group>
                                 <Form.Label className="formLabel" htmlFor="name">Name *</Form.Label>
-                                <Form.Control type="text" id="name" name="name" required />
+                                <Form.Control type="text" id="name" name="name" required className="nameFormControl" />
                             </Form.Group>
                             <Form.Group>
                                 <Form.Label className="formLabel" htmlFor="email">Email *</Form.Label>
                                 <Form.Control type="email" id="email" name="email" required />
                             </Form.Group>
                             <Form.Group>
+                                <Form.Label className="formLabel" htmlFor="phoneNumber">Phone Number</Form.Label>
+                                <Form.Control type="tel" id="phoneNumber" name="phoneNumber" />
+                            </Form.Group>
+                            <Form.Group>
                                 <Form.Label className="formLabel" htmlFor="message">Message</Form.Label>
                                 <Form.Control as="textarea" id="message" name="message" />
                             </Form.Group>
                             <Button variant="primary" type="submit" className="formLabel formButton">
-                                Submit
+                                Send
                             </Button>
                         </Form>
                     </Col>

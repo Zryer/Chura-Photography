@@ -1,7 +1,7 @@
 .welcomeContainer {
     display: flex;
     justify-content: center;
-    background: url(../../Images/sakuraWelcome.png) center 0/cover no-repeat fixed;
+    background: url(../../Images/background.jpg) center 0/cover no-repeat fixed;
     background-color: #ffb7c5;
     height: 100%;
     position: absolute;
