@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Chura-Photography/static/css/main.e7f300c7.css",
-    "main.js": "/Chura-Photography/static/js/main.3e513160.js",
-    "static/media/sakuraWelcome.png": "/Chura-Photography/static/media/sakuraWelcome.ca28da76961cf6ff7cb7.png",
-    "static/media/sakuraHome.png": "/Chura-Photography/static/media/sakuraHome.707124f8827157eabcce.png",
-    "static/media/chris.jpg": "/Chura-Photography/static/media/chris.76dfa2ff7368f8a083a2.jpg",
-    "static/media/house.jpg": "/Chura-Photography/static/media/house.1b146e1589b58e518881.jpg",
-    "static/media/soul.jpg": "/Chura-Photography/static/media/soul.0eaa330570a97fdd567c.jpg",
-    "static/media/background.jpg": "/Chura-Photography/static/media/background.062dd3c259c68ff8f71e.jpg",
-    "index.html": "/Chura-Photography/index.html",
-    "main.e7f300c7.css.map": "/Chura-Photography/static/css/main.e7f300c7.css.map",
-    "main.3e513160.js.map": "/Chura-Photography/static/js/main.3e513160.js.map"
+    "main.css": "/static/css/main.24657061.css",
+    "main.js": "/static/js/main.97a8e519.js",
+    "static/media/sakuraWelcome.png": "/static/media/sakuraWelcome.ca28da76961cf6ff7cb7.png",
+    "static/media/sakuraHome.png": "/static/media/sakuraHome.707124f8827157eabcce.png",
+    "static/media/chris.jpg": "/static/media/chris.76dfa2ff7368f8a083a2.jpg",
+    "static/media/house.jpg": "/static/media/house.1b146e1589b58e518881.jpg",
+    "static/media/soul.jpg": "/static/media/soul.0eaa330570a97fdd567c.jpg",
+    "static/media/background.jpg": "/static/media/background.062dd3c259c68ff8f71e.jpg",
+    "index.html": "/index.html",
+    "main.24657061.css.map": "/static/css/main.24657061.css.map",
+    "main.97a8e519.js.map": "/static/js/main.97a8e519.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7f300c7.css",
-    "static/js/main.3e513160.js"
+    "static/css/main.24657061.css",
+    "static/js/main.97a8e519.js"
   ]
 }
