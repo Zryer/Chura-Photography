@@ -12,8 +12,8 @@ const App = () => {
     return (
             <Routes>
                 <Route path="/Chura-Photography" element={<Home />} />
-                <Route path="Chura-Photography/About" element={<About />} />
-                <Route path="Chura-Photography/Photos" element={<Photos />}>
+                <Route path="/Chura-Photography/About" element={<About />} />
+                <Route path="/Chura-Photography/Photos" element={<Photos />}>
                     <Route path="" element={<PhotoIndex />} />
                     <Route path=":param" element={<PhotoPage />} />
                 </Route>
