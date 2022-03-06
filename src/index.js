@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, browserHistory } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollToTop';
 import App from './App';
 
@@ -14,5 +14,5 @@ import './Components/ContactComponent/Contact.css';
 import './Components/WelcomeComponent/Welcome.css';
 
 ReactDOM.render(
-    <HashRouter><ScrollToTop /><App /></HashRouter>,document.getElementById('root')
+    <HashRouter history={browserHistory}><ScrollToTop /><App /></HashRouter>,document.getElementById('root')
 );
