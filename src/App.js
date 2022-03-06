@@ -14,8 +14,8 @@ const App = () => {
                 <Route path="/Chura-Photography" element={<Home />} />
                 <Route path="/Chura-Photography/About" element={<About />} />
                 <Route path="/Chura-Photography/Photos" element={<Photos />}>
-                    <Route path="" element={<PhotoIndex />} />
-                    <Route path=":param" element={<PhotoPage />} />
+                    <Route path="/Chura-Photography" element={<PhotoIndex />} />
+                    <Route path="/Chura-Photography:param" element={<PhotoPage />} />
                 </Route>
                 <Route path="/Chura-Photography/Contact" element={<Contact />} />
             </Routes>
