@@ -17,9 +17,9 @@ const Home = () => {
                         <p className="homeText">Aspiring photographer in Oahu</p>
                     </Col>
                     <Col className="homeDivLinks" xs={12}>
-                        <Link to="/About" className="homeLinks">About</Link>
-                        <Link to="/Photos" className="homeLinks">Photos</Link>
-                        <Link to="/Contact" className="homeLinks">Contact</Link>
+                        <Link to="/Chura-Photography/About" className="homeLinks">About</Link>
+                        <Link to="/Chura-Photography/Photos" className="homeLinks">Photos</Link>
+                        <Link to="/Chura-Photography/Contact" className="homeLinks">Contact</Link>
                     </Col>
                     </Col>
                 </Row>
