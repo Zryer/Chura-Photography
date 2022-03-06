@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Figure, Button } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Figure from 'react-bootstrap/Figure';
+import Button from 'react-bootstrap/Button';
 import { PHOTOSLIST } from './PhotosList';
 
 const PhotoIndex = () => {

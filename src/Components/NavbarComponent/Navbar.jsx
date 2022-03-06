@@ -1,5 +1,8 @@
 import React from 'react';
-import { Container, Navbar, Nav, Col } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faCircleUser, faCamera, } from '@fortawesome/free-solid-svg-icons';
