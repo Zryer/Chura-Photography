@@ -10,17 +10,15 @@ import PhotoPage from './Components/PhotosComponent/PhotoPage';
 
 const App = () => {
     return (
-        <>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="About" element={<About />} />
-                <Route path="Photos" element={<Photos />}>
+                <Route path="/Chura-Photography" element={<Home />} />
+                <Route path="Chura-Photography/About" element={<About />} />
+                <Route path="Chura-Photography/Photos" element={<Photos />}>
                     <Route path="" element={<PhotoIndex />} />
                     <Route path=":param" element={<PhotoPage />} />
                 </Route>
                 <Route path="Contact" element={<Contact />} />
             </Routes>
-        </>
     )
 }
 
