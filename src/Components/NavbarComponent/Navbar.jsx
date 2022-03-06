@@ -14,9 +14,9 @@ const Navi = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbarButton" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="openNavbar">
                     <Nav>
-                        <Link to="/About" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faCircleUser} /><div>About</div></Col></Link>
-                        <Link to="/Photos" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faCamera} /><div>Photos</div></Col></Link>
-                        <Link to="/Contact" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faPhone} /><div>Contact</div></Col></Link>
+                        <Link to="Chura-Photography/About" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faCircleUser} /><div>About</div></Col></Link>
+                        <Link to="Chura-Photography/Photos" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faCamera} /><div>Photos</div></Col></Link>
+                        <Link to="Chura-Photography/Contact" className="navLinks"><Col className="navLinkCol"><FontAwesomeIcon icon={faPhone} /><div>Contact</div></Col></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
