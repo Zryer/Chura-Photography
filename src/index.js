@@ -14,5 +14,5 @@ import './Components/ContactComponent/Contact.css';
 import './Components/WelcomeComponent/Welcome.css';
 
 ReactDOM.render(
-    <BrowserRouter basename="/"><ScrollToTop /><App /></BrowserRouter>,document.getElementById('root')
+    <BrowserRouter><ScrollToTop /><App /></BrowserRouter>,document.getElementById('root')
 );
