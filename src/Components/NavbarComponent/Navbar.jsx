@@ -10,7 +10,7 @@ const Navi = () => {
     return (
         <Navbar collapseOnSelect bg="light" sticky="top" expand="lg" id="navi" className="fullNavbar">
             <Container fluid className="containerNavbar">
-                <Navbar.Brand className="navbarBrand"><Link to="/Chura-Photography" className="navbarBrandText">Chura Photography</Link></Navbar.Brand>
+                <Navbar.Brand className="navbarBrand"><Link to="/Chura-Photography/" className="navbarBrandText">Chura Photography</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbarButton" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="openNavbar">
                     <Nav>

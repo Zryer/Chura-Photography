@@ -23,7 +23,7 @@ const PhotoPage = () => {
                 <Col>
                     <img className={width} src={image} alt={alt} />
                     <h2>{text}</h2>
-                    <Link to="/Photos" className="photoBack">Back to Photos</Link>
+                    <Link to="/Chura-Photography/Photos" className="photoBack">Back to Photos</Link>
                 </Col>
             </Row>
         </Container>
