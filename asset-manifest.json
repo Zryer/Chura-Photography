@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chura-Photography/static/css/main.e7f300c7.css",
-    "main.js": "/Chura-Photography/static/js/main.dae030bc.js",
+    "main.js": "/Chura-Photography/static/js/main.384bf68e.js",
     "static/media/sakuraWelcome.png": "/Chura-Photography/static/media/sakuraWelcome.ca28da76961cf6ff7cb7.png",
     "static/media/sakuraHome.png": "/Chura-Photography/static/media/sakuraHome.707124f8827157eabcce.png",
     "static/media/chris.jpg": "/Chura-Photography/static/media/chris.76dfa2ff7368f8a083a2.jpg",
@@ -10,10 +10,10 @@
     "static/media/background.jpg": "/Chura-Photography/static/media/background.062dd3c259c68ff8f71e.jpg",
     "index.html": "/Chura-Photography/index.html",
     "main.e7f300c7.css.map": "/Chura-Photography/static/css/main.e7f300c7.css.map",
-    "main.dae030bc.js.map": "/Chura-Photography/static/js/main.dae030bc.js.map"
+    "main.384bf68e.js.map": "/Chura-Photography/static/js/main.384bf68e.js.map"
   },
   "entrypoints": [
     "static/css/main.e7f300c7.css",
-    "static/js/main.dae030bc.js"
+    "static/js/main.384bf68e.js"
   ]
 }
