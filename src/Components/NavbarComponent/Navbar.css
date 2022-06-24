@@ -41,7 +41,7 @@
 }
 
 .navbarBrand {
-    margin: 0;
+    margin-left: 2.5rem;
 }
 
 .navbarButton {
@@ -50,12 +50,7 @@
 
 
 .fullNavbar {
-    padding: 0;
-}
-
-.containerNavbar {
-    background-color: #ded8d9;
-    flex-direction: column;
+    background-color: #ded8d9 !important;
 }
 
 .navLinks {
@@ -65,15 +60,10 @@
     color: #000;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
 .navLinks:hover {
-    color: #c5ffb7;
-    -webkit-text-fill-color: #c5ffb7;
-}
-
-.navLinkCol {
-    display: flex;
-    flex-direction: column;
+    color: #ffb7c5;
+    -webkit-text-fill-color: #ffb7c5;
 }

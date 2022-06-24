@@ -44,6 +44,8 @@ const PhotoIndex = () => {
                                         alt={obj.alt}
                                         src={obj.image}
                                         className="photos"
+                                        width={0}
+                                        height={0}
                                     />
                                 </Figure>
                             </Link>

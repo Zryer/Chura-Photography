@@ -13,18 +13,18 @@ const PhotoPage = () => {
 
     if (!photo) {
         return (
-            <Col>Not Found</Col>
+            <Col>Sorry there is no picture for this url</Col>
         )
     }
 
-    const { name, image, alt, width, text } = photo;
+    const { image, alt, width, text } = photo;
 
     return (
         <Container className="photoPageContainer" id="photoPage" fluid>
             <Row className="photoPageRow">
                 <Col>
                     <img className={width} src={image} alt={alt} />
-                    <h2>{text}</h2>
+                    <h2 className="photoPageText">{text}</h2>
                     <Link to="/Chura-Photography/Photos" className="photoBack">Back to Photos</Link>
                 </Col>
             </Row>

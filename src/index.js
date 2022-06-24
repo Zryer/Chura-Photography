@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollToTop';
 import App from './App';
@@ -11,8 +11,11 @@ import './Components/HomeComponent/Home.css';
 import './Components/AboutComponent/About.css';
 import './Components/PhotosComponent/Photos.css';
 import './Components/ContactComponent/Contact.css';
-import './Components/WelcomeComponent/Welcome.css';
 
-ReactDOM.render(
-    <BrowserRouter><ScrollToTop /><App /></BrowserRouter>,document.getElementById('root')
+
+const container = document.getElementById('root')
+
+const root = createRoot(container);
+root.render(
+<BrowserRouter><ScrollToTop /><App /></BrowserRouter>
 );

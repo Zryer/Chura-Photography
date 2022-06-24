@@ -7,58 +7,37 @@
 }
 
 body {
-    background-color: #ffb7c5;
+    background-color: #6f6f6f;
     font-family: 'Noto Sans', sans-serif;
-}
-
-@keyframes xLeft {
-    0% {
-        opacity: .5;
-        transform: translateX(100vw)
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes xRight {
-    0% {
-        opacity: .5;
-        transform: translateX(-100vw)
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
+    scroll-behavior: smooth;
 }
 
 @keyframes xLeftPhotos {
     0% {
         opacity: .5;
-        transform: translateX(50vw)
+
     }
     100% {
         opacity: 1;
-        transform: translateX(0);
+
     }
 }
 
 @keyframes xRightPhotos {
     0% {
         opacity: .5;
-        transform: translateX(-50vw)
+
     }
     100% {
         opacity: 1;
-        transform: translateX(0);
+
     }
 }
 
 @keyframes yDown {
     0% {
         opacity: .5;
-        transform: translateY(-50vh)
+        transform: translateY(-5vh)
     }
     100% {
         opacity: 1;

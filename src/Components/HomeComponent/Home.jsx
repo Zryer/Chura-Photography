@@ -2,13 +2,11 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Welcome from '../WelcomeComponent/Welcome';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
         <>
-            <Welcome />
             <Container fluid className="homeContainer" id="home">
                 <Row className="homeRow">
                     <Col className="mainContainer">

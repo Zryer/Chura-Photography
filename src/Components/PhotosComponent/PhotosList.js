@@ -2,7 +2,7 @@ export const PHOTOSLIST = [
     {
         id: 0,
         name: "Church",
-        image: require("../../Images/house.jpg"),
+        image: require("../../Images/house.webp"),
         alt: "Church",
         width: "photoWidth50",
         animation: "photoDivRight",
@@ -11,7 +11,7 @@ export const PHOTOSLIST = [
     {
         id: 1,
         name: "Sakura",
-        image: require("../../Images/sakuraHome.png"),
+        image: require("../../Images/sakuraHome.webp"),
         alt: "Sakura",
         width: "photoWidth50",
         animation: "photoDivLeft",
@@ -21,7 +21,7 @@ export const PHOTOSLIST = [
     {
         id: 2,
         name: "Sunset",
-        image: require("../../Images/background.jpg"),
+        image: require("../../Images/background.webp"),
         alt: "Sunset",
         width: "photoWidth50",
         animation: "photoDivRight",
@@ -31,7 +31,7 @@ export const PHOTOSLIST = [
     {
         id: 3,
         name: "Chris",
-        image: require("../../Images/chris.jpg"),
+        image: require("../../Images/chris.webp"),
         alt: "Chris",
         width: "photoWidth50",
         animation: "photoDivLeft",
@@ -41,7 +41,7 @@ export const PHOTOSLIST = [
     {
         id: 4,
         name: "Dreaming",
-        image: require("../../Images/soul.jpg"),
+        image: require("../../Images/soul.webp"),
         alt: "Dreaming",
         width: "photoWidth50",
         animation: "photoDivRight",
