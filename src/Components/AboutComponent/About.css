@@ -1,8 +1,6 @@
 .aboutContainer {
     height: 100%;
     margin-top: 2vh;
-    animation: yDown .5s linear;
-    animation-fill-mode: forwards;
     overflow: hidden;
 }
 

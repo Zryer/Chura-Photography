@@ -33,14 +33,3 @@ body {
 
     }
 }
-
-@keyframes yDown {
-    0% {
-        opacity: .5;
-        transform: translateY(-5vh)
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
