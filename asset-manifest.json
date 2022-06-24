@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Chura-Photography/static/css/main.e7f300c7.css",
-    "main.js": "/Chura-Photography/static/js/main.a6dc1b7f.js",
-    "static/media/sakuraWelcome.png": "/Chura-Photography/static/media/sakuraWelcome.ca28da76961cf6ff7cb7.png",
-    "static/media/sakuraHome.png": "/Chura-Photography/static/media/sakuraHome.707124f8827157eabcce.png",
-    "static/media/chris.jpg": "/Chura-Photography/static/media/chris.76dfa2ff7368f8a083a2.jpg",
-    "static/media/house.jpg": "/Chura-Photography/static/media/house.1b146e1589b58e518881.jpg",
-    "static/media/soul.jpg": "/Chura-Photography/static/media/soul.0eaa330570a97fdd567c.jpg",
-    "static/media/background.jpg": "/Chura-Photography/static/media/background.062dd3c259c68ff8f71e.jpg",
+    "main.css": "/Chura-Photography/static/css/main.a3d2a392.css",
+    "main.js": "/Chura-Photography/static/js/main.e6c3c442.js",
+    "static/media/sakuraWelcome.webp": "/Chura-Photography/static/media/sakuraWelcome.886e9ff206c7ca469023.webp",
+    "static/media/sakuraHome.webp": "/Chura-Photography/static/media/sakuraHome.10a119ac2fa14bfe3e6e.webp",
+    "static/media/chris.webp": "/Chura-Photography/static/media/chris.14b88ed3884141ae413f.webp",
+    "static/media/house.webp": "/Chura-Photography/static/media/house.b7711cf602de11c37c9c.webp",
+    "static/media/soul.webp": "/Chura-Photography/static/media/soul.26d5c530f71ae111e770.webp",
+    "static/media/background.webp": "/Chura-Photography/static/media/background.b6d4713e521cf89ab480.webp",
     "index.html": "/Chura-Photography/index.html",
-    "main.e7f300c7.css.map": "/Chura-Photography/static/css/main.e7f300c7.css.map",
-    "main.a6dc1b7f.js.map": "/Chura-Photography/static/js/main.a6dc1b7f.js.map"
+    "main.a3d2a392.css.map": "/Chura-Photography/static/css/main.a3d2a392.css.map",
+    "main.e6c3c442.js.map": "/Chura-Photography/static/js/main.e6c3c442.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7f300c7.css",
-    "static/js/main.a6dc1b7f.js"
+    "static/css/main.a3d2a392.css",
+    "static/js/main.e6c3c442.js"
   ]
 }
