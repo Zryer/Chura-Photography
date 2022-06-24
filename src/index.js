@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './Components/ScrollToTop';
 import App from './App';
 
@@ -17,5 +17,5 @@ const container = document.getElementById('root')
 
 const root = createRoot(container);
 root.render(
-<BrowserRouter><ScrollToTop /><App /></BrowserRouter>
+<HashRouter><ScrollToTop /><App /></HashRouter>
 );
