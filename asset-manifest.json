@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chura-Photography/static/css/main.40208d2d.css",
-    "main.js": "/Chura-Photography/static/js/main.e6c3c442.js",
+    "main.css": "/Chura-Photography/static/css/main.ee2ca733.css",
+    "main.js": "/Chura-Photography/static/js/main.b8e4c8ca.js",
     "static/media/sakuraWelcome.webp": "/Chura-Photography/static/media/sakuraWelcome.886e9ff206c7ca469023.webp",
     "static/media/sakuraHome.webp": "/Chura-Photography/static/media/sakuraHome.10a119ac2fa14bfe3e6e.webp",
     "static/media/chris.webp": "/Chura-Photography/static/media/chris.14b88ed3884141ae413f.webp",
@@ -9,11 +9,11 @@
     "static/media/soul.webp": "/Chura-Photography/static/media/soul.26d5c530f71ae111e770.webp",
     "static/media/background.webp": "/Chura-Photography/static/media/background.b6d4713e521cf89ab480.webp",
     "index.html": "/Chura-Photography/index.html",
-    "main.40208d2d.css.map": "/Chura-Photography/static/css/main.40208d2d.css.map",
-    "main.e6c3c442.js.map": "/Chura-Photography/static/js/main.e6c3c442.js.map"
+    "main.ee2ca733.css.map": "/Chura-Photography/static/css/main.ee2ca733.css.map",
+    "main.b8e4c8ca.js.map": "/Chura-Photography/static/js/main.b8e4c8ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.40208d2d.css",
-    "static/js/main.e6c3c442.js"
+    "static/css/main.ee2ca733.css",
+    "static/js/main.b8e4c8ca.js"
   ]
 }
